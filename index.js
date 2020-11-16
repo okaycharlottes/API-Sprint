@@ -5,10 +5,7 @@ document.querySelector("#button").addEventListener("click", function(){
     .then(response=> response.json())                                                //Transformer la reponse de la [promise] en JSON
     .then((data)=>{
         console.log(data)
-       
-        
-            
-           data= content.innerHTML=data.quote
+       data= dimension.innerHTML=data.quote
        
     })
     

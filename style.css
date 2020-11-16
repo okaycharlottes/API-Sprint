@@ -1,0 +1,34 @@
+.your-class {
+    background-image:url(kanye.png) ;
+    background-size: contain;
+    background-repeat:no-repeat ;
+    width: 600px;
+    height: 400px;
+    z-index: 1;
+    /* margin-top: -208px;
+    margin-left: 184px; */
+} 
+
+#bulle{
+    background-image: url(bulle.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top:0;
+    left:362px;
+}
+
+#container{
+    position: relative;
+}
+
+#dimension{
+   
+    position: absolute;
+    width:200px;
+    height: 100px;
+    top:33px;
+    left: 461px;
+}
